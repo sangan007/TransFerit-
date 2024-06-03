@@ -1,0 +1,30 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always normalize line endings.
+*.dart text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.swift text eol=lf
+*.java text eol=lf
+*.kt text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files should be treated as binary and not modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.zip binary
+*.exe binary
+*.dll binary
