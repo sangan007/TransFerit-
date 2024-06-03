@@ -1,4 +1,4 @@
-# money_management_application
+# TransFerit
 
 A new Flutter project.
 
